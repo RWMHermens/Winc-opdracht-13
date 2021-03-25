@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+.red:active {
+    color: red;
+    font-style: italic;
+}
+.yellow:visited {
+    color: yellow;
+}
+.textinput:focus {
+    color: green;
+    font-size: 20px;
+}
+hr {
+    margin: 20px 0;
+}
+ul {
+    padding-inline-start: 0;
+    background-color: darkblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 10px 15px;
+}
+li a:hover {
+    background-color: lightblue;
+}
+section nav a {
+    color: white;
+}
+.currentPage:visited {
+    background-color: rgb(68, 68, 138);
+}
+.textinput2 {
+    margin: 10px 15px;
+    padding: 0;
+    border-width: 0;
+    width: 200px;
+}
+.textinput2:focus {
+    border-width: 3px;
+    border-color: aqua;
+}
